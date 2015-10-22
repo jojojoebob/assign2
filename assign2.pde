@@ -1,8 +1,7 @@
 PImage start1,start2,img1,img2,enemy,fighter,hp,treasure,end1,end2;
-int g1,g2,fx,fy,ex,ey,tx,ty,lift;
+int g1,g2,fx,fy,ex,ey,tx,ty,lift,gameState;
 final int GAMESTART=0,GAMERUN=1,GAMELOSE=2;
 boolean up=false,down=false,left=false,right=false;
-int gameState;
 void setup () 
 {
   size(640,480);
