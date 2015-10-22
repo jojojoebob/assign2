@@ -21,7 +21,7 @@ void setup ()
   g2=640;
   fx=width-50; 
   fy=height/2-25;
-  tx=floor(random(600));
+  tx=floor(random(550));
   ty=floor(random(440));
   ey=floor(random(440));
   ex=-60;
