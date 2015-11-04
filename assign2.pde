@@ -94,7 +94,7 @@ void draw()
     {
       image(end1,0,0);
       if(mousePressed)
-        gameState=GAMESTART;
+        gameState=GAMERUN;
     }
     else
       image(end2,0,0);
